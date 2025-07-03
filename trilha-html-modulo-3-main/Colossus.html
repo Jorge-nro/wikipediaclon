@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colossus - Wikipédia, a enciclopédia livre</title>
-    <link rel="stylesheet" href="/wiki.css">
+    <link rel="stylesheet" href="../wiki.css">
   </head>
 <body>
   <header role="banner">
@@ -51,7 +51,7 @@
       <hr>
       <figure>
         <div style="border: 1px solid gray; width: 300px; float: right; margin-top: 20px; text-align: center; border-radius: 4px; background-color: #F5F5F5; margin-left: 4px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/LorenzSZ42at_TNMOC (1).jpg" style="width: 300px; padding: 5px;" alt="Uma máquina de criptografia Lorenz SZ42 com suas tampas removidas no Museu Nacional de Computação em Bletchley Park">
+        <img src="assets/images/LorenzSZ42at_TNMOC (1).jpg" style="width: 300px; padding: 5px;" alt="Uma máquina de criptografia Lorenz SZ42 com suas tampas removidas no Museu Nacional de Computação em Bletchley Park">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Uma máquina de criptografia Lorenz SZ42 com suas tampas removidas no Museu Nacional de Computação em Bletchley Park</figcaption>
         </div>
       </figure>
@@ -60,14 +60,14 @@
       <p style="margin: 20px 0 10px; font-size: 18px">Foi deduzido que a máquina tinha doze rodas e usava uma técnica de cifragem Vernam em caracteres de mensagem no código telegráfico padrão ITA2 de 5 bits. Ele fez isso combinando os caracteres de texto simples com um fluxo de caracteres-chave usando a função booleana XOR para produzir o texto cifrado.</p>
       <figure>
         <div style="border: 1px solid gray; width: 300px; float: right;margin-left: 4px; margin-top: 15px; text-align: center; border-radius: 4px; background-color: #F5F5F5;">
-        <img src="/trilha-html-modulo-3-main/assets/images/Lorenz_Cams.jpg" style="width: 300px; padding: 5px;" alt="Pinos nas rodas 9 e 10 mostrando suas posições levantadas (ativas) e abaixadas (inativas). Um pino ativo reverteu o valor de um bit (0 → 1 e 1 → 0)">
+        <img src="assets/images/Lorenz_Cams.jpg" style="width: 300px; padding: 5px;" alt="Pinos nas rodas 9 e 10 mostrando suas posições levantadas (ativas) e abaixadas (inativas). Um pino ativo reverteu o valor de um bit (0 → 1 e 1 → 0)">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Pinos nas rodas 9 e 10 mostrando suas posições levantadas (ativas) e abaixadas (inativas). Um pino ativo reverteu o valor de um bit (0 → 1 e 1 → 0)</figcaption>
         </div>
       </figure>
       <p style="margin: 20px 0 10px; font-size: 18px">Em agosto de 1941, um erro cometido por operadores alemães levou à transmissão de duas versões da mesma mensagem com configurações de máquina idênticas. Estes foram interceptados e trabalhados em Bletchley Park, em uma mansão vitoriana chamada Station X, a qual estava prestes a ser demolida, porém devido a sua localização geográfica próxima a ferrovia e grandes centros educacionais, tornou-se o centro onde Colossus fora construído. Primeiro, John Tiltman, um criptoanalista GC&CS, derivou um fluxo de chave de quase 4.000 caracteres. Em seguida, Bill Tutte, um membro recém-chegado da Seção de Pesquisa, usou esse fluxo-chave para descobrir a estrutura lógica da máquina Lorenz. Ele deduziu que as doze rodas consistiam em dois grupos de cinco, que ele chamou de rodas χ (chi) e ψ (psi), as duas restantes ele chamou de rodas μ (mu) ou "motoras". As rodas chi pisavam regularmente com cada letra criptografada, enquanto as rodas psi pisavam irregularmente, sob o controle das rodas motoras.</p>
       <figure>
         <div style="border: 1px solid gray; width: 500px; float: right;margin-left: 4px; margin-top: 15px;border-radius: 4px; background-color: #F5F5F5;margin-right: 1%; text-align: left ;padding-left: 1.5px; padding-bottom: 1.5px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/SZ42-6-wheels-lightened.jpg" style="width: 500px; padding: 5px;" alt="As máquinas Lorenz SZ tinham 12 rodas, cada uma com um número diferente de cames">
+        <img src="assets/images/SZ42-6-wheels-lightened.jpg" style="width: 500px; padding: 5px;" alt="As máquinas Lorenz SZ tinham 12 rodas, cada uma com um número diferente de cames">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">As máquinas Lorenz SZ tinham 12 rodas, cada uma com um número diferente de cames (ou "pinos").</figcaption>
         <table border="1" cellpadding="0" cellspacing="0" width="495" style="border-collapse: collapse; border: 1px solid lightgray;border-radius: 4px;">
           <tr>
@@ -128,7 +128,7 @@
       <p style="margin: 20px 0 10px; font-size: 18px">As mensagens da "Tunny" eram decodificadas a mão por Alan Turing, usando seu método de dedução. O método de Turing, foi por alguns meses o único mecanismo de decodificação, todavia a decodificação era feita a mão, o que se provou muito lento. O Colossus 1, em média 1 ano para ser criado mas depois que o primeiro foi lançado, a produção foi acelerada rapidamente.</p>
       <p style="margin: 20px 0 10px; font-size: 18px">Usando a diferenciação e sabendo que as rodas psi não avançavam com cada caractere, Tutte concluiu que tentar apenas dois bits diferenciados (impulsos) do fluxo de chi contra o texto cifrado diferenciado produziria uma estatística não aleatória. Isso ficou conhecido como "invasão 1 + 2" de Tutte. Envolveu o cálculo da seguinte função booleana:
       <figure>
-        <img width="250" style="margin-top: 5px;" src="/trilha-html-modulo-3-main/assets/images/f26dca06f0769d00b28a07e5e1d575d16ad9c798.svg" alt="Contando o número de vezes que resultou 'falso' (zero).">
+        <img width="250" style="margin-top: 5px;" src="assets/images/f26dca06f0769d00b28a07e5e1d575d16ad9c798.svg" alt="Contando o número de vezes que resultou 'falso' (zero).">
       </figure></p>
       <p style="margin: 20px 0 10px; font-size: 18px">Contando o número de vezes que resultou "falso" (zero). Se esse número exceder um valor limite predefinido conhecido como "total definido", ele será impresso. O criptoanalista examinaria a impressão para determinar qual das posições iniciais putativas era mais provável de ser a correta para as rodas chi-1 e chi-2.</p>
       <p style="margin: 20px 0 10px; font-size: 18px">Essa técnica seria então aplicada a outros pares de impulsos, ou únicos, para determinar a provável posição inicial de todas as cinco rodas chi. A partir daí, o de-chi (D) de um texto cifrado pode ser obtido, a partir do qual o componente psi pode ser removido por métodos manuais. Se a distribuição de frequência de caracteres na versão de-chi do texto cifrado estava dentro de certos limites, a "configuração da roda" das rodas chi foi considerada alcançada, e as configurações de mensagem e de-chi foram passadas para o "Testery". Esta foi a seção em Bletchley Park liderada pelo Major Ralph Tester, onde a maior parte do trabalho de descriptografia foi feito por métodos manuais e linguísticos.</p>
@@ -136,51 +136,51 @@
       <table border="1" cellspacing="0" cellpadding="0" style="background-color: #F5F5F5; border-collapse: collapse; border: 1px solid lightgray; border-radius: 5px; width: 70%;">
         <p style="font-weight: bold; margin-left: 30%; margin-bottom: 5px; font-size: 20px;">Notação</p>
         <tr>
-          <td style="padding-left: 2px; padding-top: 10px; padding-bottom: 10px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/p.svg"></td>
+          <td style="padding-left: 2px; padding-top: 10px; padding-bottom: 10px; border-right: 5px;"><img src="assets/images/p.svg"></td>
           <td style="padding: 2px;">texto simples</td>
         </tr>
         <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/k.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/k.svg"></td>
           <td style="padding: 2px;">
             chave - a sequência de caracteres usados no XOR binário com
 o texto simples para dar o texto cifrado
           </td>
         </tr>
         <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/x.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/x.svg"></td>
           <td style="padding: 2px;">	componente chi da chave</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/phi.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/phi.svg"></td>
           <td style="padding: 2px;">componente psi da chave</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/phi1.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/phi1.svg"></td>
           <td style="padding: 2px;">psi estendido - a sequência real de caracteres adicionados por
 as rodas psi, incluindo aquelas quando não avançam</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/z.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/z.svg"></td>
           <td style="padding: 2px;">texto cifrado</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/d.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/d.svg"></td>
           <td style="padding: 2px;">de-chi - o texto cifrado com o componente chi da chave removido</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/delta.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/delta.svg"></td>
           <td style="padding: 2px;">qualquer um dos XOR acima com seu caractere sucessor ou bit</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/alvo.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/alvo.svg"></td>
           <td style="padding: 2px;">a operação XOR</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/ponto.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/ponto.svg"></td>
           <td style="padding: 2px;">Abreviação de Bletchley Park para espaço de código de telegrafia (zero)</td>
           </tr>
           <tr>
-          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="/trilha-html-modulo-3-main/assets/images/xm.svg"></td>
+          <td style="padding-left: 2px; padding-top: 15px; padding-bottom: 15px; border-right: 5px;"><img src="assets/images/xm.svg"></td>
           <td style="padding: 2px;">Abreviação de Bletchley Park para marca de código de telegrafia (um)</td>
         </tr>
       </table>
@@ -191,7 +191,7 @@ as rodas psi, incluindo aquelas quando não avançam</td>
       <p style="margin: 20px 0 10px; font-size: 18px">O Colossus foi desenvolvido para o "Newmanry", a seção chefiada pelo matemático Max Newman que era responsável por métodos de máquina contra a máquina de cifragem teleimpressora on-line Lorenz SZ40 / 42 de doze rotores (codinome Tunny, para atum) . O design do Colossus surgiu de um projeto anterior que produziu uma máquina de contagem apelidada de "Heath Robinson". Embora tenha provado o conceito de análise de máquina para essa parte do processo, inicialmente não era confiável. As partes eletromecânicas eram relativamente lentas e era difícil sincronizar duas fitas de papel em loop, uma contendo a mensagem codificada e a outra representando parte do fluxo chave da máquina de Lorenz, também as fitas tendiam a esticar ao serem lidas em até 2.000 caracteres por segundo.</p>
       <figure>
         <div style="border: 1px solid gray; width: 300px; float: right; margin-top: 20px; text-align: center; border-radius: 4px; background-color: #F5F5F5; margin-left: 4px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/COLOSSUS,_part_of_the_machine,_presented_by_Director_GCHQ_to_Director_NSA_in_1986_-_National_Cryptologic_Museum_-_DSC07890 (1).JPG" style="width: 300px; padding: 5px;" alt="Interruptor de escalonamento supostamente de um Colosso original apresentado pelo Diretor do GCHQ ao Diretor da NSA para marcar o 40º aniversário do Acordo UKUSA em 1986">
+        <img src="assets/images/COLOSSUS,_part_of_the_machine,_presented_by_Director_GCHQ_to_Director_NSA_in_1986_-_National_Cryptologic_Museum_-_DSC07890 (1).JPG" style="width: 300px; padding: 5px;" alt="Interruptor de escalonamento supostamente de um Colosso original apresentado pelo Diretor do GCHQ ao Diretor da NSA para marcar o 40º aniversário do Acordo UKUSA em 1986">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Interruptor de escalonamento supostamente de um Colosso original apresentado pelo Diretor do GCHQ ao Diretor da NSA para marcar o 40º aniversário do Acordo UKUSA em 1986</figcaption>
         </div>
       </figure>
@@ -206,7 +206,7 @@ as rodas psi, incluindo aquelas quando não avançam</td>
       <p style="margin: 20px 0 10px; font-size: 18px">Flowers e sua equipe de cerca de cinquenta pessoas no grupo de comutação[35][39] passaram onze meses desde o início de fevereiro de 1943 projetando e construindo uma máquina que dispensava a segunda fita do Heath Robinson, gerando os padrões das rodas eletronicamente. Heath Robinson, conseguia analisar de 2 a 3 mensagens da Tunny por semana, o que gerou uma necessidade para criação de uma máquina mais rápida para decodificação das mensagens. Flowers usou parte de seu próprio dinheiro para o projeto. Este protótipo, Mark 1 Colossus, continha 1.600 válvulas termiônicas (tubos).Ele teve um desempenho satisfatório em Dollis Hill em 8 de dezembro de 1943 e foi desmontado e enviado para Bletchley Park, onde foi entregue em 18 de janeiro e remontado por Harry Fensom e Don Horwood. Estava operacional em janeiro e atacou com sucesso sua primeira mensagem em 5 de fevereiro de 1944. Era uma grande estrutura e foi apelidada de 'Colosso', supostamente pelos operadores do WRNS. No entanto, um memorando mantido nos Arquivos Nacionais, escrito por Max Newman em 18 de janeiro de 1944, registra que "Colossus chega hoje".</p>
       <figure>
         <div style="border: 1px solid gray; width: 300px; float: right; margin-top: 20px; text-align: center; border-radius: 4px; background-color: #F5F5F5; margin-left: 4px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/Wartime_photo_of_Colossus_10.png" style="width: 300px; padding: 5px;" alt="Colossus 10 com sua cama estendida no Bloco H em Bletchley Park no espaço que agora contém a galeria Tunny do Museu Nacional de Computação">
+        <img src="assets/images/Wartime_photo_of_Colossus_10.png" style="width: 300px; padding: 5px;" alt="Colossus 10 com sua cama estendida no Bloco H em Bletchley Park no espaço que agora contém a galeria Tunny do Museu Nacional de Computação">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Colossus 10 com sua cama estendida no Bloco H em Bletchley Park no espaço que agora contém a galeria Tunny do Museu Nacional de Computação</figcaption>
         </div>
       </figure>
@@ -232,7 +232,7 @@ as rodas psi, incluindo aquelas quando não avançam</td>
       <p style="margin: 20px 0 10px; font-size: 18px">O Newmanry era composto por criptoanalistas, operadores do Women's Royal Naval Service (WRNS) - conhecido como "Wrens" - e engenheiros que estavam permanentemente disponíveis para manutenção e reparos. Ao final da guerra, a equipe era de 272 Wrens e 27 homens.</p>
             <figure>
         <div style="border: 1px solid gray; width: 300px; float: right; margin-top: 20px; text-align: center; border-radius: 4px; background-color: #F5F5F5; margin-left: 4px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/Colossus_computer_selection_panel.png" style="width: 300px; padding: 5px;" alt="Painel de seleção colosso mostrando opções">
+        <img src="assets/images/Colossus_computer_selection_panel.png" style="width: 300px; padding: 5px;" alt="Painel de seleção colosso mostrando opções">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Painel de seleção colosso mostrando opções, entre outras, da fita mais distante na cabeceira da cama e para entrada no algoritmo:
           <b>
 Δ
@@ -256,7 +256,7 @@ Z
       <p style="margin: 20px 0 10px; font-size: 18px">Howard Campaigne, um matemático e criptoanalista da US Navy OP-20-G, escreveu o seguinte em um prefácio ao artigo de Flowers de 1983 "The Design of Colossus".</p>
       <figure>
         <div style="border: 1px solid gray; width: 300px; float: right; margin-top: 20px; text-align: center; border-radius: 4px; background-color: #F5F5F5; margin-left: 4px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/Colossus_computer_Q_panel.png" style="width: 300px; padding: 5px;" alt="Painel de interruptores do Colossus K2 mostrando interruptores para especificar o algoritmo (à esquerda) e os contadores a serem selecionados (à direita)">
+        <img src="assets/images/Colossus_computer_Q_panel.png" style="width: 300px; padding: 5px;" alt="Painel de interruptores do Colossus K2 mostrando interruptores para especificar o algoritmo (à esquerda) e os contadores a serem selecionados (à direita)">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Painel de interruptores do Colossus K2 mostrando interruptores para especificar o algoritmo (à esquerda) e os contadores a serem selecionados (à direita)</figcaption>
         </div>
       </figure>
@@ -278,7 +278,7 @@ Z
       <p style="margin: 20px 0 10px; font-size: 18px">Colosso e as razões de sua construção eram altamente secretas e assim permaneceram por 30 anos após a guerra. Consequentemente, ele não foi incluído na história do hardware de computação por muitos anos, e Flowers e seus associados foram privados do reconhecimento que deviam. Os colossos 1 a 10 foram desmontados após a guerra e as peças foram devolvidas aos Correios. Algumas peças, higienizadas quanto à sua finalidade original, foram levadas para o Royal Society Computing Machine Laboratory de Max Newman na Universidade de Manchester.[59] Tommy Flowers recebeu ordens de destruir toda a documentação e queimá-la em uma fornalha em Dollis Hill. Mais tarde, ele disse sobre essa ordem:</p>
         <figure>
         <div style="border: 1px solid gray; width: 300px; float: right; margin-top: 20px; text-align: center; border-radius: 4px; background-color: #F5F5F5; margin-left: 4px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/Picture111Shopped.jpg" style="width: 300px; padding: 5px;" alt="Colossus 'set total' painel de controle">
+        <img src="assets/images/Picture111Shopped.jpg" style="width: 300px; padding: 5px;" alt="Colossus 'set total' painel de controle">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Colossus 'set total' painel de controle</figcaption>
         </div>
       </figure>
@@ -306,7 +306,7 @@ Z
       <p style="margin: 20px 0 10px; font-size: 18px">A construção de uma reconstrução totalmente funcional de um Colossus Mark 2 foi realizada entre 1993 e 2008 por uma equipe liderada por Tony Sale. Apesar de as plantas e o hardware serem destruídos, uma quantidade surpreendente de material sobreviveu, principalmente em cadernos de engenheiros, mas uma quantidade considerável nos Estados Unidos. O leitor de fita óptica pode ter representado o maior problema, mas o Dr. Arnold Lynch, é o designer original que foi capaz de redesenhá-lo de acordo com suas próprias especificações originais. A reconstrução está em exibição, no local historicamente correto do Colosso nº 9, no Museu Nacional de Computação, no H Block Bletchley Park em Milton Keynes, Buckinghamshire.</p>
               <figure>
         <div style="border: 1px solid gray; width: 300px; float: right; margin-top: 20px; text-align: center; border-radius: 4px; background-color: #F5F5F5; margin-left: 4px;">
-        <img src="/trilha-html-modulo-3-main/assets/images/Frontal_view_of_the_reconstructed_Colossus_at_The_National_Museum_of_Computing,_Bletchley_Park.jpg" style="width: 300px; padding: 5px;" alt="Vista frontal da reconstrução do Colosso mostrando, da direita para a esquerda (1) A 'cabeceira' que contém a fita de mensagem em seu loop contínuo e com uma segunda carregada. (2) O J-rack contendo o Painel de Seleção e o Painel de Plugues. (3) O rack K com o grande painel de interruptores 'Q' e patch panel inclinado. (4) O duplo S-rack contendo o painel de controle e, acima da imagem de um selo postal, cinco displays de duas linhas. (5)">
+        <img src="assets/images/Frontal_view_of_the_reconstructed_Colossus_at_The_National_Museum_of_Computing,_Bletchley_Park.jpg" style="width: 300px; padding: 5px;" alt="Vista frontal da reconstrução do Colosso mostrando, da direita para a esquerda (1) A 'cabeceira' que contém a fita de mensagem em seu loop contínuo e com uma segunda carregada. (2) O J-rack contendo o Painel de Seleção e o Painel de Plugues. (3) O rack K com o grande painel de interruptores 'Q' e patch panel inclinado. (4) O duplo S-rack contendo o painel de controle e, acima da imagem de um selo postal, cinco displays de duas linhas. (5)">
         <figcaption style="margin-bottom: 5px; font-size: 12px; width: 100%; padding: 5px; padding-right: 5px;">Vista frontal da reconstrução do Colosso mostrando, da direita para a esquerda (1) A "cabeceira" que contém a fita de mensagem em seu loop contínuo e com uma segunda carregada. (2) O J-rack contendo o Painel de Seleção e o Painel de Plugues. (3) O rack K com o grande painel de interruptores "Q" e patch panel inclinado. (4) O duplo S-rack contendo o painel de controle e, acima da imagem de um selo postal, cinco displays de duas linhas. (5)</figcaption>
         </div>
       </figure>
@@ -330,7 +330,7 @@ Z
       <tr>
         <td colspan="2" style="text-align:center;">
           <picture>
-          <img src="/trilha-html-modulo-3-main/assets/images/Colossus.jpg" width="250" alt="Duas mulheres operando o grande ENIAC" style="padding-top: 2px;">
+          <img src="assets/images/Colossus.jpg" width="250" alt="Duas mulheres operando o grande ENIAC" style="padding-top: 2px;">
           </picture>
         </td>
       </tr>
